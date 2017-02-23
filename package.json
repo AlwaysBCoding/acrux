@@ -1,6 +1,6 @@
 {
   "name": "acrux",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a functional library for interacting with Ethereum without needing to run your own node",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "license": "ISC",
   "bin": {
     "acrux": "./index.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "dependencies": {
     "chalk": "^1.1.3",
